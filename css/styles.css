@@ -30,21 +30,21 @@
   background-color: #D0D0D0;
 }
 
-#ruby {
+#ruby h2 {
   margin: 12px;
   border: 5px solid  #dc143c;
   padding: 12px;
   background-color: #fde8ec;
 }
 
-#java {
+#java h2 {
   margin: 12px;
   border: 5px solid  #006699;
   padding: 12px;
   background-color: #cceeff;
 }
 
-#c {
+#c h2 {
   margin: 12px;
   border: 5px solid  #7b68ee;
   padding: 12px;
@@ -53,15 +53,16 @@
 
 #ruby, #java, #c {
   display: none;
+  float: left;
 }
 
-#results p {
+.suggestions p {
   text-align: left;
 }
 
-#results img {
-  width: 200px;
-  height: 200px;
+.suggestions img {
+  width: 150px;
+  height: 150px;
   margin: 12px;
   float: left;
 }

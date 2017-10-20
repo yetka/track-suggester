@@ -1,0 +1,67 @@
+.jumbotron {
+  text-align: center;
+}
+
+.introduction p {
+  margin: 12px;
+  border: 5px solid #00ccff;
+  padding: 12px;
+  background-color: #ccf5ff;
+}
+
+.list {
+  margin: 12px;
+  border: 5px solid  #336699;
+  padding: 12px;
+  background-color: #d9e6f2;
+}
+
+.introduction #purpose {
+  margin: 12px;
+  border: 5px solid  #66ffff;
+  padding: 12px;
+  background-color: #e6ffff;
+}
+
+#questions {
+  margin: 12px;
+  border: 5px solid  #404040;
+  padding: 12px;
+  background-color: #D0D0D0;
+}
+
+.ruby {
+  margin: 12px;
+  border: 5px solid  #dc143c;
+  padding: 12px;
+  background-color: #fde8ec;
+}
+
+.java {
+  margin: 12px;
+  border: 5px solid  #006699;
+  padding: 12px;
+  background-color: #cceeff;
+}
+
+.c {
+  margin: 12px;
+  border: 5px solid  #7b68ee;
+  padding: 12px;
+  background-color: #ebe8fc;
+}
+
+#suggestions {
+  display: none;
+}
+
+#suggestions p {
+  text-align: left;
+}
+
+#suggestions img {
+  width: 200px;
+  height: 200px;
+  margin: 12px;
+  float: left;
+}

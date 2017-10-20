@@ -9,6 +9,12 @@
   background-color: #ccf5ff;
 }
 
+.epicodus {
+  color: #00008b;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 .list {
   margin: 12px;
   border: 5px solid  #336699;

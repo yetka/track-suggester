@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  var name = prompt("What is your name? :");
   $("form#questions").submit(function(event) {
     var question1 = $("input:radio[name=ends]:checked").val();
     var question2 = $("input:radio[name=type]:checked").val();
@@ -7,7 +8,7 @@ $(document).ready(function() {
     var question5 = $("#windows").val();
 
     $(".suggestions").hide();
-
+    $(".name").text(name);
     if (question1==="front") {
       alert("We are so sorry but now we don't run any front-end language classes. Wait for incoming schedule! ")
     } else if (question2==="small" && question3==="2" && question4==="2") {

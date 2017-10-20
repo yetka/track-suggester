@@ -30,36 +30,36 @@
   background-color: #D0D0D0;
 }
 
-.ruby {
+#ruby {
   margin: 12px;
   border: 5px solid  #dc143c;
   padding: 12px;
   background-color: #fde8ec;
 }
 
-.java {
+#java {
   margin: 12px;
   border: 5px solid  #006699;
   padding: 12px;
   background-color: #cceeff;
 }
 
-.c {
+#c {
   margin: 12px;
   border: 5px solid  #7b68ee;
   padding: 12px;
   background-color: #ebe8fc;
 }
 
-#suggestions {
+#ruby, #java, #c {
   display: none;
 }
 
-#suggestions p {
+#results p {
   text-align: left;
 }
 
-#suggestions img {
+#results img {
   width: 200px;
   height: 200px;
   margin: 12px;

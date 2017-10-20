@@ -33,7 +33,12 @@
         <div class="question1">
           <h3>Frontend or backend?</h3>
           <p>
-            Two terms thrown around a lot in the web industry are front-end and back-end. It can be a little frustrating since the difference between the front-end and back-end isn't always perfectly clear. They're terms often used to describe aspects of the web industry. The front-end is also referred to as the client-side and is sometimes considered "web design". The back-end of the web industry is often called the server-side. Often when someone says they're a "web developer" they're saying they work on the back-end of sites. What do you prefere?
+            Two terms thrown around a lot in the web industry are
+            <ol>
+              <li>front-end</li>
+              <li>back-end</li>
+            </ol>
+            It can be a little frustrating since the difference between the front-end and back-end isn't always perfectly clear. They're terms often used to describe aspects of the web industry. The <strong>front-end</strong> is also referred to as the client-side and is sometimes considered "web design". The <strong>back-end</strong> of the web industry is often called the server-side. Often when someone says they're a "web developer" they're saying they work on the back-end of sites. What do you prefere?
           </p>
           <div class="radio">
             <label>
@@ -74,24 +79,25 @@
         <div class="question3">
           <h3>Do you want to work as a Mobile developer?</h3>
           <select class="form-control" id="mobile">
-            <option>Yes</option>
-            <option>No</option>
+            <option value="1">Yes</option>
+            <option value="2">No</option>
           </select>
         </div>
 
         <div class="question4">
           <h3>Do you want to work as an Android developer?</h3>
           <select class="form-control" id="android">
-            <option>Yes</option>
-            <option>No</option>
+
+            <option value="1">Yes</option>
+            <option value="2">No</option>
           </select>
         </div>
 
         <div class="question5">
           <h3>Do you want to work with something integrated with Windows?</h3>
           <select class="form-control" id="windows">
-            <option>Yes</option>
-            <option>No</option>
+            <option value="1">Yes</option>
+            <option value="2">No</option>
           </select>
         </div>
 
@@ -99,9 +105,9 @@
 
       </form>
 
-      <div id="suggestions">
+      <div id="results">
 
-        <div class="ruby">
+        <div class="suggestions" id="ruby">
           <h2>Ruby/Rails</h2>
           <img src="img/ruby.png" alt="Ruby logo">
           <p>
@@ -109,7 +115,7 @@
           </p>
         </div>
 
-        <div class="java">
+        <div class="suggestions" id="java">
           <h2>Java/Android</h2>
           <img src="img/java.jpeg" alt="Java logo">
           <p>
@@ -117,7 +123,7 @@
           </p>
         </div>
 
-        <div class="c">
+        <div class="suggestions" id="c">
           <h2>C#</h2>
           <img src="img/c.png" alt="c# logo">
           <p>
